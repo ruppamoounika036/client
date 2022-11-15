@@ -1,0 +1,16 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    max-width: 1140px;
+    margin: auto;
+  }
+  .cardList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .cardList > div {
+    flex: 1;
+    padding-bottom: 50px;
+  }
+  

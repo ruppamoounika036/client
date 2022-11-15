@@ -1,0 +1,37 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "proxy": "http://localhost:5000",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/chess.js": "^0.13.4",
+    "canvas": "^2.10.2",
+    "chart.js": "^3.9.1",
+    "chess.js": "^1.0.0-alpha.0",
+    "chessboardjsx": "^2.4.7",
+    "document": "^0.4.7",
+    "express": "^4.18.2",
+    "froalacharts": "^1.0.0",
+    "http-proxy-middleware": "^2.0.6",
+    "mongodb": "^4.11.0",
+    "next": "12.2.5",
+    "next-auth": "^4.15.0",
+    "node_env": "^0.0.3",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.3.1",
+    "react-compound-timer": "^1.2.0",
+    "react-dom": "17.0.2",
+    "react-froalacharts": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.1",
+    "html-loader": "^4.2.0"
+  }
+}
